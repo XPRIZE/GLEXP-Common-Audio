@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find -name "*.ogg" | xargs -I{} license {} |sort 
